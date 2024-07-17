@@ -1,0 +1,79 @@
+{
+    "metadata": {
+      "ssh_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCp+/m1n7Kp6EuvFwMcXVCxKBVGcuQ8285id7LwGfYEZ2gZOmE2Bx5T1nv8A6EXXRPqk4zW6VJ96rfc72/ESwu+5yLMbt652kmBvJmZGXYyJMrrNAty+AQwKUqrixwlYB/R2r54fsy2pWk30ZeYObeYjVMbz+2J8UOlwJZ02s7Wb3lsYj5xT6SBZdDtyHia4E6537PPNvh+ChDKjbbLPmGzu/xG40mSTV3p6fFVUE3c5sErWgzRja1detMIkm3mBn5ZGWeKtfQ1GlrUXQkwEhpp29hq2tN/tXpOLApjBIE0zIa8CsgsF5qaah7FBC1Z83H/oAfl8lk9oE/+l2NpfdZf ssh-key-2024-07-15"
+    },
+    "shape": "VM.Standard.A1.Flex",
+    "compartmentId": "ocid1.tenancy.oc1..aaaaaaaaqz6g2qaewwqmojscelnkdq3lsvz4zudlwvmostoezpkpuhpqdwjq",
+    "displayName": "instance-20240716-0039",
+    "availabilityDomain": "rclG:AP-SINGAPORE-1-AD-1",
+    "sourceDetails": {
+      "sourceType": "image",
+      "imageId": "ocid1.image.oc1.ap-singapore-1.aaaaaaaakvm4n62twqrt2kdbc76a24kmzytldq5i7azqpc4ewyinztfgypfa"
+    },
+    "isPvEncryptionInTransitEnabled": true,
+    "createVnicDetails": {
+      "assignPublicIp": true,
+      "subnetId": "ocid1.subnet.oc1.ap-singapore-1.aaaaaaaafsnkson6jqxlxin7soadzgjqnmvfpxhetedr7nn4smjshqdamrna",
+      "assignPrivateDnsRecord": true,
+      "assignIpv6Ip": false
+    },
+    "agentConfig": {
+      "pluginsConfig": [
+        {
+          "name": "Vulnerability Scanning",
+          "desiredState": "DISABLED"
+        },
+        {
+          "name": "Management Agent",
+          "desiredState": "DISABLED"
+        },
+        {
+          "name": "Custom Logs Monitoring",
+          "desiredState": "ENABLED"
+        },
+        {
+          "name": "Compute RDMA GPU Monitoring",
+          "desiredState": "DISABLED"
+        },
+        {
+          "name": "Compute Instance Monitoring",
+          "desiredState": "ENABLED"
+        },
+        {
+          "name": "Compute HPC RDMA Auto-Configuration",
+          "desiredState": "DISABLED"
+        },
+        {
+          "name": "Compute HPC RDMA Authentication",
+          "desiredState": "DISABLED"
+        },
+        {
+          "name": "Cloud Guard Workload Protection",
+          "desiredState": "ENABLED"
+        },
+        {
+          "name": "Block Volume Management",
+          "desiredState": "DISABLED"
+        },
+        {
+          "name": "Bastion",
+          "desiredState": "DISABLED"
+        }
+      ],
+      "isMonitoringDisabled": false,
+      "isManagementDisabled": false
+    },
+    "definedTags": {},
+    "freeformTags": {},
+    "instanceOptions": {
+      "areLegacyImdsEndpointsDisabled": false
+    },
+    "availabilityConfig": {
+      "isLiveMigrationPreferred": true,
+      "recoveryAction": "RESTORE_INSTANCE"
+    },
+    "shapeConfig": {
+      "ocpus": 4,
+      "memoryInGBs": 24
+    }
+  }
